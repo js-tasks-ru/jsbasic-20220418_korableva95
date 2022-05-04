@@ -5,8 +5,9 @@ function print(text) {
 
 
 function isValid(name){
-  if (!!name && !name.includes('') && name.length>=4)return true;
-  return false;
+  if (!!name && !name.includes('') && name.length>= 4)
+    return true;
+    return false;
 }
 
 
